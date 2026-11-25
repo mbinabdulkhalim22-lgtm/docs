@@ -12,11 +12,15 @@ category:
   - Build agents at enterprise scale
 ---
 
+<!-- expires 2026-12-31 -->
+{% data reusables.copilot.fusion-promotional-discount %}
+<!-- end expires 2026-12-31 -->
+
 ## Overview
 
 {% data variables.copilot.copilot_fusion_short %} is an intelligent runtime model router and orchestrator. It chooses models and execution patterns for your task, then returns a single response. For example, it can choose one model to draft a solution and a separate model for review.
 
-You select {% data variables.copilot.copilot_fusion_short %} in the model picker, but you aren't selecting a specific model. You're choosing a system that routes and orchestrates models at runtime. You don't need to switch models during a task or decide which model suits each step. For each request, {% data variables.copilot.copilot_fusion_short %} selects the right execution pattern, the right level of reasoning effort, and the models that run it.
+You select {% data variables.copilot.copilot_fusion_short %} in the model picker, but you aren't selecting a specific model. You're choosing a system that routes and orchestrates models at runtime. You don't need to switch models during a task or decide which model suits each step. For each request, {% data variables.copilot.copilot_fusion_short %} selects the right execution pattern and the models that run it.
 
 {% data variables.copilot.copilot_fusion_short %} also considers real-time system health and availability when choosing models. Routing occurs along natural cache boundaries and large changes in conversation complexity to avoid additional cache-related costs without quality improvements.
 
@@ -125,9 +129,9 @@ If none of the models {% data variables.copilot.copilot_fusion_short %} uses are
 
 ## Billing for {% data variables.copilot.copilot_fusion_short %}
 
-<!-- expires 2026-11-30 -->
+<!-- expires 2026-12-31 -->
 {% data reusables.copilot.fusion-promotional-discount %}
-<!-- end expires 2026-11-30 -->
+<!-- end expires 2026-12-31 -->
 
 When you use {% data variables.copilot.copilot_fusion_short %}, you're billed for each model it uses, at that model's standard rate. There's no separate charge for {% data variables.copilot.copilot_fusion_short %}. Because {% data variables.copilot.copilot_fusion_high %} and {% data variables.copilot.copilot_fusion_max %} can use more than one model for a task, a task may consume more {% data variables.product.prodname_ai_credits_short %} than it would with {% data variables.copilot.copilot_fusion_standard %}. For per-model rates, see [AUTOTITLE](/copilot/reference/copilot-billing/models-and-pricing).
 

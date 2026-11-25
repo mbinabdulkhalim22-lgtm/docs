@@ -21,9 +21,15 @@ category:
 
 ## About linked issues and pull requests
 
-You can link an issue to a pull request manually or using a supported keyword in the pull request description, that is, the summary text added by the author when they created the pull request.
+You can link up to 10 issues to a pull request and up to 10 pull requests to an issue manually or using a supported keyword in the pull request description, that is, the summary text added by the author when they created the pull request.
 
 When you link a pull request to the issue the pull request addresses, collaborators can see that someone is working on the issue.
+
+{% ifversion issue-statuses %}
+
+Linking a pull request can also move the issue's status to In progress or In review. For more information, see [AUTOTITLE](/issues/tracking-your-work-with-issues/learning-about-issues/about-issue-statuses#automatic-status-changes).
+
+{% endif %}
 
 When you merge a linked pull request into the **default branch** of a repository, its linked issue is automatically closed. For more information about the default branch, see [AUTOTITLE](/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/changing-the-default-branch).
 
